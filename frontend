@@ -1,0 +1,28 @@
+frontend/
+  ├── src/
+  │   ├── components/
+  │   │     ├── Sidebar.jsx
+  │   │     ├── Topbar.jsx
+  │   │     ├── StatCard.jsx
+  │   │     ├── RoleBadge.jsx
+  │   │     ├── ThemeToggle.jsx
+  │   │
+  │   ├── pages/
+  │   │     ├── Dashboard.jsx
+  │   │     ├── Users.jsx
+  │   │     ├── Roles.jsx
+  │   │     ├── Leads.jsx
+  │   │     ├── Deals.jsx
+  │   │     ├── Settings.jsx
+  │   │     ├── Login.jsx
+  │   │
+  │   ├── context/AuthContext.jsx
+  │   ├── utils/AuthGuard.jsx
+  │   ├── services/api.js
+  │   ├── App.jsx
+  │   ├── main.jsx
+  │   ├── index.css
+  │
+  ├── package.json
+  ├── .env
+  └── vite.config.js
