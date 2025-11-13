@@ -1,0 +1,88 @@
+# EDXcellence CRM — Full-Stack Role-Based Admin Panel  
+A production-ready CRM system built with **React + Vite + Tailwind**, **NodeJS + Express**, and **MongoDB** featuring complete **Role-Based Access Control (RBAC)**.  
+Designed for high-performance EdTech workflows: student lead management, deal tracking, user administration, analytics, and team operations.
+
+---
+
+## 🚀 Features
+
+### 🔐 Authentication & Security
+- JWT authentication (access + refresh ready)
+- Protected routes with `AuthGuard`
+- Fully implemented **Role-Based Access Control**
+- Four default roles:
+  - `SuperAdmin`
+  - `Admin`
+  - `Manager`
+  - `Staff`
+- Permission matrix enforced on both backend + frontend
+- Activity logs for all admin actions
+
+### 📊 Dashboard & Analytics
+- Lead analytics (daily, weekly)
+- Revenue overview
+- User growth metrics
+- Chart.js-powered graphs
+- EDXcellence-branded UI components
+
+### 👤 User Management
+- Create / update / disable users
+- Assign / update roles
+- Soft delete system
+- Invite user by email workflow (API-ready)
+- View activity logs for each user
+
+### 🧩 CRM Modules
+- **Leads** (source, stage, assigned manager)
+- **Deals** (pipeline, stage management)
+- **Notes**
+- **Status tracking**
+- **Imports/Exports (CSV-ready)**
+
+### 🎨 UI/UX (EDXcellence Theme)
+- Primary Color: `#0B3864`
+- Accent: `#00C4CC`
+- Light + Dark mode
+- Collapsible sidebar
+- Responsive layout
+- Card-based dashboards
+- Clean typography (Inter / DM Sans)
+- Glass-UI touches
+
+### ⚙ Backend (NodeJS + Express)
+- Modular routing architecture
+- Controllers + services separation
+- Centralized error handler
+- JWT + RBAC middleware
+- Mongoose models for user, roles, leads, deals, logs
+- Full CRUD APIs
+- MongoDB Atlas support
+
+---
+
+## 🛠 Tech Stack
+
+### Frontend
+- **React (Vite)**
+- **Tailwind CSS**
+- React Router
+- Chart.js
+- Context API Auth Layer
+
+### Backend
+- **NodeJS**
+- **Express**
+- **MongoDB + Mongoose**
+- JWT Authentication
+- RBAC middleware
+
+### DevOps & Deployment
+- Frontend → **Vercel**
+- Backend → **Render / Railway**
+- Database → **MongoDB Atlas**
+
+---
+
+## 📁 Project Structure
+
+### Frontend
